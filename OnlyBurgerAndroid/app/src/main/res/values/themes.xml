@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. The UI itself is built with Jetpack Compose / Material3;
+         this XML theme only needs to provide a no-action-bar shell and status bar color. -->
+    <style name="Theme.OnlyBurger" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/ob_red</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
